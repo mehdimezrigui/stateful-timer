@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.border1{
+  margin-top: 100px;
+  border: 2px solid black;
+  width: 250px;
+  height: 470px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: coral;
+}
+.header{
+  width: 45px;
+  height: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin:20px;
+  background-color: white;
+}
+.main{
+  border: 2px solid black;
+  width: 230px;
+  height: 350px;
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer{
+  width: 35px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 5px;
+}
+.text{
+  font-size: 10px;
+  margin:0px;
+  margin-right: 10px;
+  margin-left: 8px;
+  color: rgb(170, 165, 165)
+}
+
+p{
+  width:210px;
+  margin: 0px;
+  font-size:35px;
+  height: 25px;
+}
+
+.btnstart{
+  width: 55px;
+  height: 55px;
+  border: 2px solid rgb(56, 233, 124);
+  border-radius: 50%;
+  color: rgb(56, 233, 124);
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: white;
+  text-align: center;
+}
+.btnreset{
+  width: 55px;
+  height: 55px;
+  border: 2px solid rgb(241, 197, 51);
+  border-radius: 50%;
+  color: rgb(241, 197, 51);
+  font-weight: 400;
+  margin: 5px;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+}
+.time{
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.btn{
+  
+  display: flex;
+}
